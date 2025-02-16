@@ -1,6 +1,6 @@
 
 ## 완성작 보기 
-미리보기 : 
+미리보기 : https://nho-vue.netlify.app
 
 ## 사용 스택
 - vue(https://ko.vuejs.org/) 를 사용하여 사이트를 번들링하고 관리합니다.
