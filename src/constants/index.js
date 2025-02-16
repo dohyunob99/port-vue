@@ -42,32 +42,7 @@ export const skillTxt = {
 감사합니다.
 `,
 }
-export const skillList = [
-    {
-        listTxt: "HTML"
-    },
-    {
-        listTxt: "CSS"
-    },
-    {
-        listTxt: "Javascript"
-    },
-    {
-        listTxt: "Jquery"
-    },
-    {
-        listTxt: "Git"
-    },
-    {
-        listTxt: "SVN"
-    },
-    {
-        listTxt: "React"
-    },
-    {
-        listTxt: "Vue"
-    }
-];
+
 
 export const pubTxt = {
     title: "project",
