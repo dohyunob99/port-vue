@@ -350,5 +350,21 @@
   }
 }
 
+@media (max-width: 480px) {
+  .skillCon .cardList li {
+    flex: 1 1 37%;
+
+    &:nth-child(2n) {
+      margin-top: 20vw;
+    }
+
+    a span em.link {
+      font-size: 1.8vw;
+      padding: 1vw 2vw;
+      margin-top: -1.5vw;
+    }
+  }
+}
+
 
 </style>
