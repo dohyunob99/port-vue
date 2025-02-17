@@ -14,25 +14,29 @@
                   퍼블리셔는 디자인과 개발 중간에 있어 커뮤니케이션이 중요하다고 생각합니다.<br>
                   프로젝트를 진행하다 보면 서로의 생각이 다른 경우도 있어 결과가 만족스럽지 않은 경우도 생기는데 어떤 업무를 시작하게 되면 커뮤니케이션을 많이 하면서 각자의 파트에서 만족스러운 결과가 나오도록 노력하는 편입니다.<br><br>
 
-                  항상 더 나은 결과물을 만들기 위해 끊임없이 고민하고 책임감을 가지고 최선을 다해 일하겠습니다.<br>
+                  항상 더 나은 결과물을 만들기 위해 끊임없이 고민하고 책임감을 가지고 일하겠습니다.<br>
                   감사합니다.
                 </div>
             </div>
             <ul class="cardList">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Jquery</li>
-                <li>Git</li>
-                <li>SVN</li>
-                <li>PhotoShop</li>
-                <li>Figma</li>
-                <li>Zeplin</li>
-                <li>
-                    <a href="https://nho-vue.netlify.app" target="_blank">VUE 
-                        <span><em class="none">VUE 프레임워크(컴포넌트, SCSS) 사용하여<br> 동일한 포트폴리오를 만들었습니다. </em><em class="link">포트폴리오 바로가기</em></span>
-                    </a>             
-                </li>           
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Jquery</li>
+              <li>Git</li>
+              <li>PhotoShop</li>
+              <li>Figma</li>
+              <li>Zeplin</li>
+              <li class="vueLink">
+                  <a href="https://nho-vue.netlify.app" target="_blank">VUE 
+                      <span><em class="none">VUE 프레임워크(컴포넌트, SCSS) 사용하여<br/> 동일한 포트폴리오를 만들었습니다. </em><em class="link">포트폴리오 바로가기</em></span>
+                  </a>             
+              </li>   
+              <li class="raectLink">
+                  <a href="https://nho-react.netlify.app" target="_blank">REACT 
+                      <span><em class="none">REACT 프레임워크(컴포넌트, SCSS) 사용하여<br/> 동일한 포트폴리오를 만들었습니다. </em><em class="link">포트폴리오 바로가기</em></span>
+                  </a>             
+              </li>          
             </ul>
         </div>
     </section>
@@ -273,7 +277,7 @@
         margin-top: 50px;
       }
 
-      a {
+      &.vueLink a {
         display: block;
         width: 100%;
         height: 100%;
@@ -295,6 +299,36 @@
           em.link {
             display: block;
             background: #153f38;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 10px;
+          }
+        }
+      }
+
+      &.raectLink a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background: #3481c3;
+
+        span {
+          display: block;
+          margin-top: 10px;
+          font-size: 1vw;
+          line-height: 1.4vw;
+          font-weight: 400;
+          padding: 0 20px;
+
+          em.link {
+            display: block;
+            background: #083459;
             padding: 10px 15px;
             border-radius: 5px;
             font-size: 16px;
@@ -337,7 +371,7 @@
     .cardList li {
       height: 15vw;
 
-      a span em {
+      &.vueLink a span em, &.raectLink a span em {
         display: none;
 
         &.link {
@@ -358,13 +392,14 @@
       margin-top: 20vw;
     }
 
-    a span em.link {
+    &.vueLink a span em.link, &.raectLink a span em.link {
       font-size: 1.8vw;
       padding: 1vw 2vw;
       margin-top: -1.5vw;
     }
   }
 }
+
 
 
 </style>

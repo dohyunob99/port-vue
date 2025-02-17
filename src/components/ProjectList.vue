@@ -322,13 +322,6 @@
     text-transform: uppercase;
     letter-spacing: -0.05em;
   }
-
-
-}
-
-.tableList td {
-  background: #111;
-  border-left: 1px solid #999;
 }
 
 .t_red {
@@ -383,7 +376,7 @@
     th {
       padding: 10px 15px;
       text-align: center;
-      font-size: 12px;
+      font-size: 14px;
       line-height: 16px;
       color: #18C3F5;
       border-bottom: 1px solid #999;
@@ -392,10 +385,12 @@
     td {
       padding: 10px 10px;
       text-align: center;
-      font-size: 12px;
+      font-size: 14px;
       line-height: 16px;
       color: #f5f5f5;
       border-bottom: 1px solid #999;
+      background: #111;
+      border-left: 1px solid #999;
 
       a img {
         width: 150px;
@@ -447,33 +442,8 @@
     /* IE6-9 */
   }
 
-  tbody {
-    th {
-      padding: 10px 15px;
-      text-align: center;
-      font-size: 12px;
-      line-height: 16px;
-      color: #18C3F5;
-      border-bottom: 1px solid #999;
-    }
-
-    td {
-      padding: 10px 10px;
-      text-align: center;
-      font-size: 12px;
-      line-height: 16px;
-      color: #f5f5f5;
-      border-bottom: 1px solid #999;
-
-      a img {
-        width: 150px;
-        height: 100px;
-      }
-    }
-
-    tr:nth-child(2n) {
-      background: #1a1a1a;
-    }
+  tbody tr:nth-child(2n) {
+    background: #1a1a1a;
   }
 }
 
@@ -502,6 +472,12 @@
     margin-top: 5px;
     font-size: 13px;
     color: #abe500;
+  }
+
+  .tableList tbody {
+    td, th {
+      font-size: 12px;
+    }
   }
 }
 
