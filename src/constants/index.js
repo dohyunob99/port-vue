@@ -1,10 +1,10 @@
-import pubImg01 from "../assets/img/site1.jpg";
-import pubImg02 from "../assets/img/site2.png";
-import pubImg03 from "../assets/img/site3.jpg";
-import pubImg04 from "../assets/img/site4.jpg";
-import pubImg05 from "../assets/img/site5.jpg";
-import pubImg06 from "../assets/img/site6.jpg";
-import pubImg07 from "../assets/img/site7.jpg";
+import pubImg01 from "@/assets/img/site1.jpg";
+import pubImg02 from "@/assets/img/site2.png";
+import pubImg03 from "@/assets/img/site3.jpg";
+import pubImg04 from "@/assets/img/site4.jpg";
+import pubImg05 from "@/assets/img/site5.jpg";
+import pubImg06 from "@/assets/img/site6.jpg";
+import pubImg07 from "@/assets/img/site7.jpg";
 
 
 export const headerNavMo = [
